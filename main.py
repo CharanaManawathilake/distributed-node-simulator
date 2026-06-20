@@ -4,10 +4,13 @@ from reader import loadNodes
 from messageService import MessageService
 
 nodes = []
+timeline = []
 
 def takeStep(time=1):
     for node in nodes:
         node.consume(time)
+        node.msgQueue = node.msgBuffer
+        node.msgBuffer = []
 
 def main():
     nodes = loadNodes("input.txt")
@@ -22,11 +25,9 @@ def main():
     takeStep(1)
 
     while (len(nodes) > 0):
-        pass
+        for node in nodes:
+            node.processStep(messageService)
         takeStep(1)
-
-    # First appointed leader (max energy guy) broadcasts what nodes are clustered and who their leaders are.
-    # message : Initialize System : [[leader1, member1-1,member1-2], [leader2, member2-1, member2-2], ...]
 
     # Leaders sends a heartbeat every x seconds.
     # Leader knows who's alive and who's dead.

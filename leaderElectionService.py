@@ -12,9 +12,7 @@ class LeaderElectionService:
             maxEnergy = -1
             id = -1
             tempNodes = []
-            for msg in node.msgBuffer:
-                node.msgQueue = node.msgBuffer
-                node.msgBuffer = []
+            for msg in node.msgQueue:
                 if msg.message_type == "SelfIntroduction":
                     energy = msg.content["energy"]
                     if energy > maxEnergy:

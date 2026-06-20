@@ -9,3 +9,11 @@ class MessageService:
         for node in self.nodes:
             if node.id != sender.id:
                 node.msgBuffer.append(msg)
+
+    def broadcastToGroup(self, sender, msg):
+        if not sender.transmitMsg():
+            return
+        
+        for node in sender.members:
+            if node.id != sender.id:
+                node.msgBuffer.append(msg)
