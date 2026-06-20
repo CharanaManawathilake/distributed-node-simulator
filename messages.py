@@ -4,13 +4,11 @@ class Message:
         self.message_type = message_type
         self.content = content
 
-
 class SelfIntroductionMessage(Message):
     def __init__(self, node):
         super().__init__(node.id,
                          "SelfIntroduction",
                          {"energy": node.energy, "location": (node.x, node.y)})
-
 
 class GroupAllocationMessage(Message):
     def __init__(self, leader_id, groups):
@@ -23,3 +21,15 @@ class TransferLeadershipMessage(Message):
         super().__init__(sender_id,
                          "TransferLeadership",
                          {"newLeader": newLeaderId})
+        
+class HeartbeatMessage(Message):
+    def __init__(self, sender_id):
+        super().__init__(sender_id,
+                         "Heartbeat",
+                         None)
+        
+class LeaderFailureMessage(Message):
+    def __init__(self, node):
+        super().__init__(node.id,
+                         "LeaderFailure",
+                         {"energy": node.energy, "location": (node.x, node.y)})
