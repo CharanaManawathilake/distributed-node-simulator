@@ -40,7 +40,13 @@ distributed-node-simulator/
 ## Getting Started
 
 ### Prerequisites
-- Python 3.6+ (No external dependencies or testing frameworks like `pytest` are required; the project relies entirely on the Python Standard Library).
+- Python 3.6+ 
+- `matplotlib` (Required for the real-time node visualizer)
+
+To install the necessary dependencies, run:
+```bash
+pip install matplotlib
+```
 
 ### Running a Simulation
 

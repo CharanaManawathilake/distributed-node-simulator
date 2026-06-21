@@ -4,42 +4,34 @@ import matplotlib.patches as patches
 from matplotlib.gridspec import GridSpec
 
 def get_node_group(node_id, nodes):
-    """
-    Finds the leader ID (cluster head) of the group this node belongs to.
-    """
     for n in nodes:
         if n.isLeader:
-            # Check if it is the leader itself or if the node is in its members list
             if node_id == n.id or node_id in n.members or any(getattr(m, 'id', m) == node_id for m in n.members):
                 return n.id
     return None
 
 class NetworkVisualizer:
     def __init__(self, timeline):
-        self.timeline = timeline # dict: timeCounter -> list of nodes
+        self.timeline = timeline
         self.current_step = 0
-        
-        # State for interactions
         self.highlight_leader_id = None
         self.selected_node_id = None
         self.is_playing = False
         self.is_paused = False
         self.is_realtime = False
         
-        # Color palette for groups
         self.colors = [
             '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', 
             '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'
         ]
         self.leader_color_map = {}
         
-        # Setup Figure with GridSpec for Plot + Table
         self.fig = plt.figure(figsize=(14, 8))
         gs = GridSpec(1, 2, width_ratios=[3, 1], figure=self.fig)
         
         self.ax = self.fig.add_subplot(gs[0, 0])
         self.ax_table = self.fig.add_subplot(gs[0, 1])
-        self.ax_table.axis('off') # Hide axes for the table
+        self.ax_table.axis('off') # Hiding axes for the table
         
         plt.subplots_adjust(bottom=0.25, left=0.05, right=0.95)
         
@@ -71,7 +63,6 @@ class NetworkVisualizer:
     def update_realtime(self, current_time):
         self.current_step = current_time
         
-        # Update slider limits dynamically
         max_time = max(self.timeline.keys()) if self.timeline else 0
         min_time = min(self.timeline.keys()) if self.timeline else 0
         
@@ -79,14 +70,12 @@ class NetworkVisualizer:
         self.slider.valmin = min_time
         self.slider.ax.set_xlim(min_time, max(max_time, min_time + 1))
         
-        # Temporarily disconnect slider event to prevent infinite update loops
-        # and then set the new value.
+        # Temporarily disconnecting slider to prevent infinite update loops and then set new value
         self.slider.eventson = False
         self.slider.set_val(current_time)
         self.slider.eventson = True
         
         self.draw_step()
-        # Pause slightly to flush UI events and limit simulation to human speed
         plt.pause(0.5)
         
         while self.is_paused:
@@ -106,7 +95,7 @@ class NetworkVisualizer:
         self.ax.set_title(f"Wireless Sensor Network - Time Step {self.current_step}")
         self.ax.set_xlabel("X Coordinate")
         self.ax.set_ylabel("Y Coordinate")
-        self.ax.set_aspect('equal', adjustable='box') # Keep aspect ratio 1:1
+        self.ax.set_aspect('equal', adjustable='box') # To keep aspect ratio 1:1
         self.ax.grid(True, linestyle='--', alpha=0.6)
         
         if self.current_step not in self.timeline:
@@ -123,10 +112,9 @@ class NetworkVisualizer:
         
         selected_node = None
         
-        # Find nodes by ID for quick lookup (for message arrows)
         node_dict = {n.id: n for n in nodes}
         
-        # --- Draw message passing links ---
+        # ======== message passing links ========
         for node in nodes:
             if hasattr(node, 'msgQueue') and node.msgQueue:
                 for msg in node.msgQueue:
@@ -135,14 +123,11 @@ class NetworkVisualizer:
                     if sender_id is not None and sender_id in node_dict:
                         sender = node_dict[sender_id]
                         
-                        # Only draw if sender is not the node itself
                         if sender_id != node.id:
-                            # Draw arrow from sender to node
                             self.ax.annotate(
                                 '', xy=(node.x, node.y), xytext=(sender.x, sender.y),
                                 arrowprops=dict(arrowstyle="->", color="purple", alpha=0.6, linestyle="dashed")
                             )
-                            # Optional popup text for message
                             mid_x = (sender.x + node.x) / 2
                             mid_y = (sender.y + node.y) / 2
                             self.ax.text(mid_x, mid_y, msg_type, color='purple', fontsize=8, alpha=0.7)
@@ -174,20 +159,19 @@ class NetworkVisualizer:
                     else:
                         colors.append('#000000')
             
-            # Prepare data for the side table
+            # data for the side table
             role = 'Leader' if node.isLeader else 'Member'
             table_data.append([node.id, role, f"{node.energy:.1f}", status])
         
-        # Plot nodes
+        # ========== Plot nodes ==========
         if x_coords:
             self.scatter = self.ax.scatter(x_coords, y_coords, c=colors, s=sizes, 
                                            picker=True, pickradius=5, edgecolors='black', zorder=3)
             
-            # Annotate node IDs
             for node in nodes:
                 self.ax.text(node.x + 2, node.y + 2, str(node.id), fontsize=9, zorder=4)
         
-        # Draw Side Table
+        # ======== Side Table =========
         if table_data:
             table_data.sort(key=lambda x: x[0]) # Sort by ID
             col_labels = ['ID', 'Role', 'Energy', 'Status']
@@ -196,7 +180,7 @@ class NetworkVisualizer:
             table.set_fontsize(9)
             table.scale(1, 1.5)
             
-            # Highlight Leader Rows
+            # Leader Rows are being highlighted
             for row_idx, row_data in enumerate(table_data):
                 if row_data[1] == 'Leader':
                     for col_idx in range(len(col_labels)):
@@ -205,7 +189,7 @@ class NetworkVisualizer:
                         
             self.ax_table.set_title("Node Energy Levels", pad=20)
         
-        # --- Interactions: Tooltip & Coverage Radius ---
+        # ======== Tooltip & Coverage Radius ========
         if selected_node:
             info_text = (f"ID: {selected_node.id}\n"
                          f"Role: {'Leader' if selected_node.isLeader else 'Member'}\n"
@@ -332,7 +316,6 @@ class NetworkVisualizer:
 if __name__ == "__main__":
     from mock_data import generate_mock_data
     timeline_data = generate_mock_data()
-    # convert mock_data list to dict to match main.py format
     timeline_dict = {i: nodes for i, nodes in enumerate(timeline_data)}
     viz = NetworkVisualizer(timeline_dict)
     plt.show()
