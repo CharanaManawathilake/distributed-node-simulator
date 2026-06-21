@@ -9,10 +9,13 @@ import argparse
 import os
 import filecmp
 
+from Visualization.visualizer import NetworkVisualizer
 nodes = []
 timeline = {}
 timeCounter = 0
 output_file = None
+
+viz = None
 
 def saveTimeline():
     global timeline
@@ -32,7 +35,8 @@ def removeDeadNodes():
 
 def printStatus():
     saveTimeline()
-
+    if viz:
+        viz.update_realtime(timeCounter)
     lines = [f"Time: {timeCounter}"]
 
     for node in nodes:
@@ -51,13 +55,20 @@ def printStatus():
 
     output_file.write(output + "\n")
 
-def run_simulation(input_file, output_file_name="output.txt"):
-    global nodes, output_file, timeCounter, timeline
+def run_simulation(input_file, output_file_name="output.txt", visualize=False):
+    global nodes, output_file, timeCounter, timeline, viz
 
     # Reset globals
     nodes = []
-    timeline = {}
+    timeline.clear()
     timeCounter = 0
+    
+    if visualize:
+        if viz is None:
+            viz = NetworkVisualizer(timeline)
+        else:
+            viz.timeline = timeline
+        viz.start_realtime()
 
     output_file = open(output_file_name, "w")
 
@@ -84,6 +95,8 @@ def run_simulation(input_file, output_file_name="output.txt"):
         printStatus()
 
     output_file.close()
+    if visualize and viz:
+        viz.keep_open()
 
 def run_tests():
     input_dir = "tests/input"
@@ -136,7 +149,7 @@ def main():
     if args.test:
         run_tests()
     else:
-        run_simulation(args.input_file)
+        run_simulation(args.input_file, visualize=True)
 
 if __name__ == "__main__":
     main()
