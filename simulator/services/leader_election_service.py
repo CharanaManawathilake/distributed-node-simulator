@@ -1,5 +1,5 @@
-from messages import GroupAllocationMessage
-from node import Node
+from simulator.messages import GroupAllocationMessage
+from simulator.node import Node
 import math
 
 class LeaderElectionService:
@@ -50,7 +50,8 @@ class LeaderElectionService:
             if actual_node:
                 tempNodes.append(actual_node)
 
-        if maxEnergy < selfNode.energy or (maxEnergy == (selfNode.energy + 3) and selfNode.id < id):
+        self_original_energy = selfNode.energy + 3
+        if maxEnergy < self_original_energy or (maxEnergy == self_original_energy and selfNode.id < id):
             selfNode.setLeader()
             groups = self._calculateGroups(selfNode, tempNodes)
             selfNode.leader = selfNode
