@@ -46,7 +46,7 @@ class Node:
             if msg.message_type == "LeaderFailure":
                 leaderFailureMsgs.append(msg)
         if len(leaderFailureMsgs) > 0:
-            leaderElectionService.initializeLeader("LeaderFailure")
+            leaderElectionService.appointNewLeader(self, leaderFailureMsgs, messageService)
             return
 
         containedHeartbeat = False
@@ -63,14 +63,18 @@ class Node:
             elif msg.message_type == "Heartbeat":
                 containedHeartbeat = True
 
-        if not containedHeartbeat and not self.isLeader:
-            self.nodeCounter += 1
+        if not self.isLeader:
+            if not containedHeartbeat:
+                self.nodeCounter += 1
+            else:
+                self.nodeCounter = 0
         else:
-            self.nodeCounter = 0
+            self.nodeCounter += 1
 
         if self.nodeCounter >= 5 and not self.isLeader:
-            messageService.broadcastToGroup(self, LeaderFailureMessage(self))
+            messageService.broadcastToMembers(self, LeaderFailureMessage(self))
             self.nodeCounter = 2
 
-        if self.isLeader:
-            messageService.broadcastToGroup(self, HeartbeatMessage(self.id))
+        if self.isLeader and self.nodeCounter >= 4:
+            self.nodeCounter = 0
+            messageService.broadcastToMembers(self, HeartbeatMessage(self.id))
