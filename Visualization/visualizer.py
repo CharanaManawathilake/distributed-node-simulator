@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, Button
 import matplotlib.patches as patches
-
-from mock_data import generate_mock_data
+from matplotlib.gridspec import GridSpec
 
 def get_node_group(node_id, nodes):
     """
@@ -17,40 +16,82 @@ def get_node_group(node_id, nodes):
 
 class NetworkVisualizer:
     def __init__(self, timeline):
-        self.timeline = timeline
-        self.num_steps = len(timeline)
+        self.timeline = timeline # dict: timeCounter -> list of nodes
         self.current_step = 0
         
         # State for interactions
         self.highlight_leader_id = None
         self.selected_node_id = None
-        
-        # Animation state
         self.is_playing = False
+        self.is_paused = False
+        self.is_realtime = False
         
-        # Color palette for groups (categorical colors)
+        # Color palette for groups
         self.colors = [
             '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', 
             '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'
         ]
         self.leader_color_map = {}
         
-        # Setup Figure and Axes
-        self.fig, self.ax = plt.subplots(figsize=(10, 8))
-        plt.subplots_adjust(bottom=0.25)
+        # Setup Figure with GridSpec for Plot + Table
+        self.fig = plt.figure(figsize=(14, 8))
+        gs = GridSpec(1, 2, width_ratios=[3, 1], figure=self.fig)
         
-        self.setup_plot()
-        self.setup_slider()
+        self.ax = self.fig.add_subplot(gs[0, 0])
+        self.ax_table = self.fig.add_subplot(gs[0, 1])
+        self.ax_table.axis('off') # Hide axes for the table
         
-        # Timer for animation
+        plt.subplots_adjust(bottom=0.25, left=0.05, right=0.95)
+        
         self.timer = self.fig.canvas.new_timer(interval=1000)
         self.timer.add_callback(self.auto_step)
         
+        self.setup_slider()
         self.setup_controls()
         
-        # Connect click event
         self.fig.canvas.mpl_connect('pick_event', self.on_pick)
         
+        if len(self.timeline) > 0:
+            self.current_step = list(self.timeline.keys())[0]
+            self.draw_step()
+
+    def start_realtime(self):
+        self.is_realtime = True
+        plt.ion()
+        self.btn_play.label.set_text('Pause')
+        self.fig.show()
+
+    def keep_open(self):
+        self.is_realtime = False
+        plt.ioff()
+        self.btn_play.label.set_text('Play')
+        self.fig.canvas.draw_idle()
+        plt.show(block=True)
+
+    def update_realtime(self, current_time):
+        self.current_step = current_time
+        
+        # Update slider limits dynamically
+        max_time = max(self.timeline.keys()) if self.timeline else 0
+        min_time = min(self.timeline.keys()) if self.timeline else 0
+        
+        self.slider.valmax = max_time
+        self.slider.valmin = min_time
+        self.slider.ax.set_xlim(min_time, max(max_time, min_time + 1))
+        
+        # Temporarily disconnect slider event to prevent infinite update loops
+        # and then set the new value.
+        self.slider.eventson = False
+        self.slider.set_val(current_time)
+        self.slider.eventson = True
+        
+        self.draw_step()
+        # Pause slightly to flush UI events and limit simulation to human speed
+        plt.pause(0.5)
+        
+        while self.is_paused:
+            plt.pause(0.1)
+
     def get_group_color(self, leader_id):
         if leader_id not in self.leader_color_map:
             color_idx = len(self.leader_color_map) % len(self.colors)
@@ -59,33 +100,52 @@ class NetworkVisualizer:
 
     def draw_step(self):
         self.ax.clear()
+        self.ax_table.clear()
+        self.ax_table.axis('off')
         
         self.ax.set_title(f"Wireless Sensor Network - Time Step {self.current_step}")
         self.ax.set_xlabel("X Coordinate")
         self.ax.set_ylabel("Y Coordinate")
-        self.ax.set_xlim(0, 200)
-        self.ax.set_ylim(0, 200)
+        self.ax.set_aspect('equal', adjustable='box') # Keep aspect ratio 1:1
         self.ax.grid(True, linestyle='--', alpha=0.6)
         
+        if self.current_step not in self.timeline:
+            self.fig.canvas.draw_idle()
+            return
+            
         nodes = self.timeline[self.current_step]
-        
-        # --- FUTURE PLACEHOLDER: active message passing links ---
-        # TODO: Draw lines between nodes to represent active message passing links.
-        # Example logic:
-        # for node in nodes:
-        #     if node.msgQueue:  # if node is communicating
-        #         target_id = node.msgQueue[0]  # assuming some structure
-        #         target = next((n for n in nodes if n.id == target_id), None)
-        #         if target:
-        #             self.ax.plot([node.x, target.x], [node.y, target.y], 'k--', alpha=0.5)
-        # ---------------------------------------------------------
         
         x_coords = []
         y_coords = []
         colors = []
         sizes = []
+        table_data = []
         
         selected_node = None
+        
+        # Find nodes by ID for quick lookup (for message arrows)
+        node_dict = {n.id: n for n in nodes}
+        
+        # --- Draw message passing links ---
+        for node in nodes:
+            if hasattr(node, 'msgQueue') and node.msgQueue:
+                for msg in node.msgQueue:
+                    sender_id = getattr(msg, 'sender_id', None)
+                    msg_type = getattr(msg, 'message_type', 'Msg')
+                    if sender_id is not None and sender_id in node_dict:
+                        sender = node_dict[sender_id]
+                        
+                        # Only draw if sender is not the node itself
+                        if sender_id != node.id:
+                            # Draw arrow from sender to node
+                            self.ax.annotate(
+                                '', xy=(node.x, node.y), xytext=(sender.x, sender.y),
+                                arrowprops=dict(arrowstyle="->", color="purple", alpha=0.6, linestyle="dashed")
+                            )
+                            # Optional popup text for message
+                            mid_x = (sender.x + node.x) / 2
+                            mid_y = (sender.y + node.y) / 2
+                            self.ax.text(mid_x, mid_y, msg_type, color='purple', fontsize=8, alpha=0.7)
         
         for node in nodes:
             x_coords.append(node.x)
@@ -94,37 +154,59 @@ class NetworkVisualizer:
             if self.selected_node_id == node.id:
                 selected_node = node
             
-            # Base size: Leaders are bigger
             sizes.append(120 if node.isLeader else 60)
             
             group_leader = get_node_group(node.id, nodes)
             
             if not node.alive:
-                colors.append('#333333') # Dark grey for dead nodes
-            elif self.highlight_leader_id is not None:
-                # Group Highlight Mode
-                if group_leader == self.highlight_leader_id:
-                    colors.append(self.get_group_color(group_leader))
-                else:
-                    colors.append('#d3d3d3') # Light grey for unhighlighted
+                colors.append('#333333')
+                status = 'Dead'
             else:
-                # Default View Mode
-                if group_leader is not None:
-                    colors.append(self.get_group_color(group_leader))
+                status = 'Alive'
+                if self.highlight_leader_id is not None:
+                    if group_leader == self.highlight_leader_id:
+                        colors.append(self.get_group_color(group_leader))
+                    else:
+                        colors.append('#d3d3d3')
                 else:
-                    colors.append('#000000') # Unaffiliated
+                    if group_leader is not None:
+                        colors.append(self.get_group_color(group_leader))
+                    else:
+                        colors.append('#000000')
+            
+            # Prepare data for the side table
+            role = 'Leader' if node.isLeader else 'Member'
+            table_data.append([node.id, role, f"{node.energy:.1f}", status])
         
         # Plot nodes
-        self.scatter = self.ax.scatter(x_coords, y_coords, c=colors, s=sizes, 
-                                       picker=True, pickradius=5, edgecolors='black', zorder=3)
+        if x_coords:
+            self.scatter = self.ax.scatter(x_coords, y_coords, c=colors, s=sizes, 
+                                           picker=True, pickradius=5, edgecolors='black', zorder=3)
+            
+            # Annotate node IDs
+            for node in nodes:
+                self.ax.text(node.x + 2, node.y + 2, str(node.id), fontsize=9, zorder=4)
         
-        # Annotate node IDs
-        for node in nodes:
-            self.ax.text(node.x + 2, node.y + 2, str(node.id), fontsize=9, zorder=4)
+        # Draw Side Table
+        if table_data:
+            table_data.sort(key=lambda x: x[0]) # Sort by ID
+            col_labels = ['ID', 'Role', 'Energy', 'Status']
+            table = self.ax_table.table(cellText=table_data, colLabels=col_labels, loc='center', cellLoc='center')
+            table.auto_set_font_size(False)
+            table.set_fontsize(9)
+            table.scale(1, 1.5)
+            
+            # Highlight Leader Rows
+            for row_idx, row_data in enumerate(table_data):
+                if row_data[1] == 'Leader':
+                    for col_idx in range(len(col_labels)):
+                        # row_idx + 1 because the 0th row is the header
+                        table[(row_idx + 1, col_idx)].set_facecolor('#fff9c4') # Light yellow
+                        
+            self.ax_table.set_title("Node Energy Levels", pad=20)
         
         # --- Interactions: Tooltip & Coverage Radius ---
         if selected_node:
-            # Tooltip
             info_text = (f"ID: {selected_node.id}\n"
                          f"Role: {'Leader' if selected_node.isLeader else 'Member'}\n"
                          f"Pos: ({selected_node.x:.1f}, {selected_node.y:.1f})\n"
@@ -135,80 +217,86 @@ class NetworkVisualizer:
             self.ax.text(0.05, 0.95, info_text, transform=self.ax.transAxes, fontsize=10,
                          verticalalignment='top', bbox=props, zorder=5)
             
-            # Coverage Radius if leader
             if selected_node.isLeader:
                 circle = patches.Circle((selected_node.x, selected_node.y), 20, 
                                         fill=False, color=self.get_group_color(selected_node.id), 
                                         linestyle='--', linewidth=1.5, zorder=2)
                 self.ax.add_patch(circle)
 
-        # --- FUTURE PLACEHOLDER: energy drop popups ---
-        # TODO: Overlay a floating temporary popup text (e.g., "-2") near a 
-        # transmitting node to visually indicate an energy drop.
-        # Example logic:
-        # for node in nodes:
-        #     if hasattr(node, 'transmitted_recently') and node.transmitted_recently:
-        #         self.ax.text(node.x, node.y + 5, "-2", color='red', fontsize=10, weight='bold', zorder=6)
-        # ---------------------------------------------------------
-        
         self.fig.canvas.draw_idle()
 
-    def setup_plot(self):
-        self.draw_step()
-        
     def setup_slider(self):
         ax_slider = plt.axes([0.2, 0.1, 0.65, 0.03], facecolor='lightgoldenrodyellow')
-        self.slider = Slider(ax_slider, 'Time Step', 0, self.num_steps - 1, 
-                             valinit=0, valstep=1)
+        self.slider = Slider(ax_slider, 'Time Step', 0, 10, valinit=0, valstep=1)
         self.slider.on_changed(self.update_slider)
         
     def setup_controls(self):
-        # Previous button
         ax_prev = plt.axes([0.3, 0.025, 0.1, 0.04])
         self.btn_prev = Button(ax_prev, '< Prev', hovercolor='0.975')
         self.btn_prev.on_clicked(self.prev_step)
         
-        # Play/Pause button
         ax_play = plt.axes([0.45, 0.025, 0.1, 0.04])
         self.btn_play = Button(ax_play, 'Play', hovercolor='0.975')
         self.btn_play.on_clicked(self.toggle_play)
         
-        # Next button
         ax_next = plt.axes([0.6, 0.025, 0.1, 0.04])
         self.btn_next = Button(ax_next, 'Next >', hovercolor='0.975')
         self.btn_next.on_clicked(self.next_step)
         
-        # Reset button
         ax_reset = plt.axes([0.8, 0.025, 0.1, 0.04])
         self.btn_reset = Button(ax_reset, 'Reset View', hovercolor='0.975')
         self.btn_reset.on_clicked(self.reset_view)
         
     def prev_step(self, event=None):
-        if self.current_step > 0:
-            self.slider.set_val(self.current_step - 1)
+        keys = sorted(list(self.timeline.keys()))
+        if not keys: return
+        try:
+            idx = keys.index(self.current_step)
+            if idx > 0:
+                self.slider.set_val(keys[idx - 1])
+        except ValueError:
+            pass
             
     def next_step(self, event=None):
-        if self.current_step < self.num_steps - 1:
-            self.slider.set_val(self.current_step + 1)
+        keys = sorted(list(self.timeline.keys()))
+        if not keys: return
+        try:
+            idx = keys.index(self.current_step)
+            if idx < len(keys) - 1:
+                self.slider.set_val(keys[idx + 1])
+        except ValueError:
+            pass
             
     def auto_step(self):
-        if self.current_step < self.num_steps - 1:
-            self.slider.set_val(self.current_step + 1)
-        else:
-            self.slider.set_val(0) # loop
+        keys = sorted(list(self.timeline.keys()))
+        if not keys: return
+        try:
+            idx = keys.index(self.current_step)
+            if idx < len(keys) - 1:
+                self.slider.set_val(keys[idx + 1])
+            else:
+                self.slider.set_val(keys[0])
+        except ValueError:
+            pass
             
     def toggle_play(self, event):
-        if self.is_playing:
-            self.is_playing = False
-            self.btn_play.label.set_text('Play')
-            self.timer.stop()
+        if self.is_realtime:
+            self.is_paused = not self.is_paused
+            if self.is_paused:
+                self.btn_play.label.set_text('Play')
+            else:
+                self.btn_play.label.set_text('Pause')
+            self.fig.canvas.draw_idle()
         else:
-            self.is_playing = True
-            self.btn_play.label.set_text('Pause')
-            if self.current_step >= self.num_steps - 1:
-                self.slider.set_val(0)
-            self.timer.start()
-        self.fig.canvas.draw_idle()
+            if self.is_playing:
+                self.is_playing = False
+                self.btn_play.label.set_text('Play')
+                self.timer.stop()
+            else:
+                self.is_playing = True
+                self.btn_play.label.set_text('Pause')
+                self.timer.start()
+            self.fig.canvas.draw_idle()
 
     def reset_view(self, event):
         self.highlight_leader_id = None
@@ -216,8 +304,12 @@ class NetworkVisualizer:
         self.draw_step()
         
     def update_slider(self, val):
-        self.current_step = int(val)
-        # Keep current selection if that node still exists, else reset
+        if not self.timeline: return
+        keys = list(self.timeline.keys())
+        closest_key = min(keys, key=lambda k: abs(k - val))
+        
+        self.current_step = closest_key
+        
         nodes = self.timeline[self.current_step]
         if self.selected_node_id is not None:
             if not any(n.id == self.selected_node_id for n in nodes):
@@ -226,7 +318,6 @@ class NetworkVisualizer:
         self.draw_step()
         
     def on_pick(self, event):
-        # matplotlib pick_event passes an ind array of all picked points
         if not len(event.ind): return
         
         ind = event.ind[0]
@@ -239,6 +330,9 @@ class NetworkVisualizer:
         self.draw_step()
 
 if __name__ == "__main__":
+    from mock_data import generate_mock_data
     timeline_data = generate_mock_data()
-    viz = NetworkVisualizer(timeline_data)
+    # convert mock_data list to dict to match main.py format
+    timeline_dict = {i: nodes for i, nodes in enumerate(timeline_data)}
+    viz = NetworkVisualizer(timeline_dict)
     plt.show()

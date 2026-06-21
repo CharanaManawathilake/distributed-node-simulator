@@ -4,9 +4,16 @@ from reader import loadNodes
 from messageService import MessageService
 import copy
 
+import sys
+sys.path.append('Visualization')
+from visualizer import NetworkVisualizer
+
 nodes = []
 timeline = {}
 timeCounter = 0
+
+viz = NetworkVisualizer(timeline)
+viz.start_realtime()
 
 def saveTimeline():
     global timeline
@@ -26,6 +33,7 @@ def removeDeadNodes():
 
 def printStatus():
     saveTimeline()
+    viz.update_realtime(timeCounter)
     print("=========================================")
     print(f"Time: {timeCounter}")
     for node in nodes:
@@ -56,6 +64,8 @@ def main():
         takeStep(1)
         removeDeadNodes()
         printStatus()
+
+    viz.keep_open()
 
 if __name__ == "__main__":    
     main()
