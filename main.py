@@ -51,6 +51,8 @@ def main():
     printStatus()
 
     while (len(nodes) > 0):
+        if timeCounter >= 150:
+            pass
         for node in nodes:
             node.processStep(messageService, leaderElectionService)
         takeStep(1)
