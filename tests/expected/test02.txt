@@ -1,0 +1,3199 @@
+Time: 0
+Node 0: Member, Energy: 345, Location: (2, 3), Group: None
+Node 1: Member, Energy: 234, Location: (12, 45), Group: None
+Node 2: Member, Energy: 533, Location: (35, 45), Group: None
+Node 3: Member, Energy: 234, Location: (1, 38), Group: None
+Node 4: Member, Energy: 50, Location: (4, 5), Group: None
+Node 5: Member, Energy: 98, Location: (50, 3), Group: None
+Node 6: Member, Energy: 144, Location: (22, 2), Group: None
+Node 7: Member, Energy: 233, Location: (34, 33), Group: None
+Node 8: Member, Energy: 235, Location: (11, 39), Group: None
+Node 9: Member, Energy: 300, Location: (2, 4), Group: None
+Node 10: Member, Energy: 302, Location: (2, 6), Group: None
+Node 11: Member, Energy: 323, Location: (3, 5), Group: None
+==========================================================================================
+Time: 1
+Node 0: Member, Energy: 342, Location: (2, 3), Group: None
+Node 1: Member, Energy: 231, Location: (12, 45), Group: None
+Node 2: Member, Energy: 530, Location: (35, 45), Group: None
+Node 3: Member, Energy: 231, Location: (1, 38), Group: None
+Node 4: Member, Energy: 47, Location: (4, 5), Group: None
+Node 5: Member, Energy: 95, Location: (50, 3), Group: None
+Node 6: Member, Energy: 141, Location: (22, 2), Group: None
+Node 7: Member, Energy: 230, Location: (34, 33), Group: None
+Node 8: Member, Energy: 232, Location: (11, 39), Group: None
+Node 9: Member, Energy: 297, Location: (2, 4), Group: None
+Node 10: Member, Energy: 299, Location: (2, 6), Group: None
+Node 11: Member, Energy: 320, Location: (3, 5), Group: None
+==========================================================================================
+Time: 2
+Node 0: Member, Energy: 341, Location: (2, 3), Group: None
+Node 1: Member, Energy: 230, Location: (12, 45), Group: None
+Node 2: Leader, Energy: 527, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 230, Location: (1, 38), Group: None
+Node 4: Member, Energy: 46, Location: (4, 5), Group: None
+Node 5: Member, Energy: 94, Location: (50, 3), Group: None
+Node 6: Member, Energy: 140, Location: (22, 2), Group: None
+Node 7: Member, Energy: 229, Location: (34, 33), Group: None
+Node 8: Member, Energy: 231, Location: (11, 39), Group: None
+Node 9: Member, Energy: 296, Location: (2, 4), Group: None
+Node 10: Member, Energy: 298, Location: (2, 6), Group: None
+Node 11: Member, Energy: 319, Location: (3, 5), Group: None
+==========================================================================================
+Time: 3
+Node 0: Leader, Energy: 340, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 229, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 526, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 229, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 45, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 93, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 139, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 228, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 230, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 295, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 297, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 318, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 4
+Node 0: Leader, Energy: 339, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 228, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 525, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 228, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 44, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 92, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 138, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 227, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 229, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 294, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 296, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 317, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 5
+Node 0: Leader, Energy: 338, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 227, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 524, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 227, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 43, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 91, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 137, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 226, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 228, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 293, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 295, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 316, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 6
+Node 0: Leader, Energy: 335, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 226, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 521, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 226, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 42, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 88, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 134, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 225, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 225, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 292, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 294, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 315, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 7
+Node 0: Leader, Energy: 334, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 225, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 520, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 225, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 41, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 87, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 133, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 224, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 224, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 291, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 293, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 314, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 8
+Node 0: Leader, Energy: 333, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 224, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 519, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 224, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 40, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 86, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 132, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 223, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 223, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 290, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 292, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 313, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 9
+Node 0: Leader, Energy: 332, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 223, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 518, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 223, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 39, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 85, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 131, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 222, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 222, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 289, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 291, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 312, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 10
+Node 0: Leader, Energy: 329, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 222, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 515, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 222, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 38, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 82, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 128, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 221, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 219, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 288, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 290, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 311, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 11
+Node 0: Leader, Energy: 328, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 221, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 514, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 221, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 37, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 81, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 127, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 220, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 218, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 287, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 289, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 310, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 12
+Node 0: Leader, Energy: 327, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 220, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 513, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 220, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 36, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 80, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 126, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 219, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 217, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 286, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 288, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 309, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 13
+Node 0: Leader, Energy: 326, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 219, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 512, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 219, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 35, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 79, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 125, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 218, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 216, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 285, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 287, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 308, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 14
+Node 0: Leader, Energy: 323, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 218, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 509, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 218, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 34, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 76, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 122, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 217, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 213, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 284, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 286, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 307, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 15
+Node 0: Leader, Energy: 322, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 217, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 508, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 217, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 33, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 75, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 121, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 216, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 212, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 283, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 285, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 306, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 16
+Node 0: Leader, Energy: 321, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 216, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 507, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 216, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 32, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 74, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 120, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 215, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 211, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 282, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 284, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 305, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 17
+Node 0: Leader, Energy: 320, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 215, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 506, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 215, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 31, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 73, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 119, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 214, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 210, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 281, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 283, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 304, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 18
+Node 0: Leader, Energy: 317, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 214, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 503, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 214, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 30, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 70, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 116, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 213, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 207, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 280, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 282, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 303, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 19
+Node 0: Leader, Energy: 316, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 213, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 502, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 213, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 29, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 69, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 115, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 212, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 206, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 279, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 281, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 302, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 20
+Node 0: Leader, Energy: 315, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 212, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 501, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 212, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 28, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 68, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 114, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 211, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 205, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 278, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 280, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 301, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 21
+Node 0: Leader, Energy: 314, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 211, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 500, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 211, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 27, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 67, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 113, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 210, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 204, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 277, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 279, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 300, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 22
+Node 0: Leader, Energy: 311, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 210, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 497, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 210, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 26, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 64, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 110, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 209, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 201, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 276, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 278, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 299, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 23
+Node 0: Leader, Energy: 310, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 209, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 496, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 209, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 25, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 63, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 109, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 208, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 200, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 275, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 277, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 298, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 24
+Node 0: Leader, Energy: 309, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 208, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 495, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 208, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 24, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 62, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 108, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 207, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 199, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 274, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 276, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 297, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 25
+Node 0: Leader, Energy: 308, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 207, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 494, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 207, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 23, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 61, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 107, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 206, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 198, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 273, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 275, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 296, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 26
+Node 0: Leader, Energy: 305, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 206, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 491, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 206, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 22, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 58, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 104, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 205, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 195, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 272, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 274, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 295, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 27
+Node 0: Leader, Energy: 304, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 205, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 490, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 205, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 21, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 57, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 103, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 204, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 194, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 271, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 273, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 294, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 28
+Node 0: Leader, Energy: 303, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 204, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 489, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 204, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 20, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 56, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 102, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 203, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 193, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 270, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 272, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 293, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 29
+Node 0: Leader, Energy: 302, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 203, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 488, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 203, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 19, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 55, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 101, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 202, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 192, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 269, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 271, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 292, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 30
+Node 0: Leader, Energy: 299, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 202, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 485, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 202, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 18, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 52, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 98, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 201, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 189, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 268, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 270, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 291, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 31
+Node 0: Leader, Energy: 298, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 201, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 484, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 201, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 17, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 51, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 97, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 200, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 188, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 267, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 269, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 290, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 32
+Node 0: Leader, Energy: 297, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 200, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 483, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 200, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 16, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 50, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 96, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 199, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 187, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 266, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 268, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 289, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 33
+Node 0: Leader, Energy: 296, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 199, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 482, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 199, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 15, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 49, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 95, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 198, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 186, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 265, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 267, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 288, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 34
+Node 0: Leader, Energy: 293, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 198, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 479, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 198, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 14, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 46, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 92, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 197, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 183, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 264, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 266, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 287, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 35
+Node 0: Leader, Energy: 292, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 197, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 478, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 197, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 13, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 45, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 91, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 196, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 182, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 263, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 265, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 286, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 36
+Node 0: Leader, Energy: 291, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 196, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 477, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 196, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 12, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 44, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 90, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 195, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 181, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 262, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 264, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 285, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 37
+Node 0: Leader, Energy: 290, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 195, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 476, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 195, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 11, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 43, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 89, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 194, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 180, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 261, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 263, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 284, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 38
+Node 0: Leader, Energy: 287, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 194, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 473, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 194, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 10, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 40, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 86, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 193, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 177, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 260, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 262, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 283, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 39
+Node 0: Leader, Energy: 286, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 193, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 472, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 193, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 9, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 39, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 85, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 192, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 176, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 259, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 261, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 282, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 40
+Node 0: Leader, Energy: 285, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 192, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 471, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 192, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 8, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 38, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 84, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 191, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 175, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 258, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 260, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 281, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 41
+Node 0: Leader, Energy: 284, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 191, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 470, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 191, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 7, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 37, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 83, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 190, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 174, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 257, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 259, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 280, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 42
+Node 0: Leader, Energy: 281, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 190, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 467, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 190, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 6, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 34, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 80, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 189, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 171, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 256, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 258, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 279, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 43
+Node 0: Leader, Energy: 280, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 189, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 466, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 189, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 5, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 33, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 79, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 188, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 170, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 255, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 257, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 278, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 44
+Node 0: Leader, Energy: 279, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 188, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 465, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 188, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 4, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 32, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 78, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 187, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 169, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 254, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 256, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 277, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 45
+Node 0: Leader, Energy: 278, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 187, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 464, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 187, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 3, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 31, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 77, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 186, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 168, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 253, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 255, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 276, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 46
+Node 0: Leader, Energy: 275, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 186, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 461, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 186, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 2, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 28, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 74, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 185, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 165, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 252, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 254, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 275, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 47
+Node 0: Leader, Energy: 274, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 185, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 460, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 185, Location: (1, 38), Group: 8
+Node 4: Member, Energy: 1, Location: (4, 5), Group: 0
+Node 5: Leader, Energy: 27, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 73, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 184, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 164, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 251, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 253, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 274, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 48
+Node 0: Leader, Energy: 273, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 184, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 459, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 184, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 26, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 72, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 183, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 163, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 250, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 252, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 273, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 49
+Node 0: Leader, Energy: 272, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 183, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 458, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 183, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 25, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 71, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 182, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 162, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 249, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 251, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 272, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 50
+Node 0: Leader, Energy: 269, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 182, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 455, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 182, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 22, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 68, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 181, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 159, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 248, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 250, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 271, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 51
+Node 0: Leader, Energy: 268, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 181, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 454, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 181, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 21, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 67, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 180, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 158, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 247, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 249, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 270, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 52
+Node 0: Leader, Energy: 267, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 180, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 453, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 180, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 20, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 66, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 179, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 157, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 246, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 248, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 269, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 53
+Node 0: Leader, Energy: 266, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 179, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 452, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 179, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 19, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 65, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 178, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 156, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 245, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 247, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 268, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 54
+Node 0: Leader, Energy: 263, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 178, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 449, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 178, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 16, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 62, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 177, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 153, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 244, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 246, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 267, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 55
+Node 0: Leader, Energy: 262, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 177, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 448, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 177, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 15, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 61, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 176, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 152, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 243, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 245, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 266, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 56
+Node 0: Leader, Energy: 261, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 176, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 447, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 176, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 14, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 60, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 175, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 151, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 242, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 244, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 265, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 57
+Node 0: Leader, Energy: 260, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 175, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 446, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 175, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 13, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 59, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 174, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 150, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 241, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 243, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 264, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 58
+Node 0: Leader, Energy: 257, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 174, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 443, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 174, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 10, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 56, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 173, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 147, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 240, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 242, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 263, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 59
+Node 0: Leader, Energy: 256, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 173, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 442, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 173, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 9, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 55, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 172, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 146, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 239, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 241, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 262, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 60
+Node 0: Leader, Energy: 255, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 172, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 441, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 172, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 8, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 54, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 171, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 145, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 238, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 240, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 261, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 61
+Node 0: Leader, Energy: 254, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 171, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 440, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 171, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 7, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 53, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 170, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 144, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 237, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 239, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 260, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 62
+Node 0: Leader, Energy: 251, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 170, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 437, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 170, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 4, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 50, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 169, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 141, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 236, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 238, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 259, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 63
+Node 0: Leader, Energy: 250, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 169, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 436, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 169, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 3, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 49, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 168, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 140, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 235, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 237, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 258, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 64
+Node 0: Leader, Energy: 249, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 168, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 435, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 168, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 2, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 48, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 167, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 139, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 234, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 236, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 257, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 65
+Node 0: Leader, Energy: 248, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 167, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 434, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 167, Location: (1, 38), Group: 8
+Node 5: Leader, Energy: 1, Location: (50, 3), Group: 5
+Node 6: Leader, Energy: 47, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 166, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 138, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 233, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 235, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 256, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 66
+Node 0: Leader, Energy: 245, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 166, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 431, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 166, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 44, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 165, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 135, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 232, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 234, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 255, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 67
+Node 0: Leader, Energy: 244, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 165, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 430, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 165, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 43, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 164, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 134, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 231, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 233, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 254, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 68
+Node 0: Leader, Energy: 243, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 164, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 429, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 164, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 42, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 163, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 133, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 230, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 232, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 253, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 69
+Node 0: Leader, Energy: 242, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 163, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 428, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 163, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 41, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 162, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 132, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 229, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 231, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 252, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 70
+Node 0: Leader, Energy: 239, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 162, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 425, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 162, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 38, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 161, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 129, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 228, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 230, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 251, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 71
+Node 0: Leader, Energy: 238, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 161, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 424, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 161, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 37, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 160, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 128, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 227, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 229, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 250, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 72
+Node 0: Leader, Energy: 237, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 160, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 423, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 160, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 36, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 159, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 127, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 226, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 228, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 249, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 73
+Node 0: Leader, Energy: 236, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 159, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 422, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 159, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 35, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 158, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 126, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 225, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 227, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 248, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 74
+Node 0: Leader, Energy: 233, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 158, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 419, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 158, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 32, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 157, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 123, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 224, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 226, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 247, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 75
+Node 0: Leader, Energy: 232, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 157, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 418, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 157, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 31, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 156, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 122, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 223, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 225, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 246, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 76
+Node 0: Leader, Energy: 231, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 156, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 417, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 156, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 30, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 155, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 121, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 222, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 224, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 245, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 77
+Node 0: Leader, Energy: 230, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 155, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 416, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 155, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 29, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 154, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 120, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 221, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 223, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 244, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 78
+Node 0: Leader, Energy: 227, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 154, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 413, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 154, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 26, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 153, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 117, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 220, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 222, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 243, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 79
+Node 0: Leader, Energy: 226, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 153, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 412, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 153, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 25, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 152, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 116, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 219, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 221, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 242, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 80
+Node 0: Leader, Energy: 225, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 152, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 411, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 152, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 24, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 151, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 115, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 218, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 220, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 241, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 81
+Node 0: Leader, Energy: 224, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 151, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 410, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 151, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 23, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 150, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 114, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 217, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 219, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 240, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 82
+Node 0: Leader, Energy: 221, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 150, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 407, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 150, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 20, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 149, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 111, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 216, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 218, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 239, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 83
+Node 0: Leader, Energy: 220, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 149, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 406, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 149, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 19, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 148, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 110, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 215, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 217, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 238, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 84
+Node 0: Leader, Energy: 219, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 148, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 405, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 148, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 18, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 147, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 109, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 214, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 216, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 237, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 85
+Node 0: Leader, Energy: 218, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 147, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 404, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 147, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 17, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 146, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 108, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 213, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 215, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 236, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 86
+Node 0: Leader, Energy: 215, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 146, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 401, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 146, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 14, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 145, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 105, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 212, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 214, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 235, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 87
+Node 0: Leader, Energy: 214, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 145, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 400, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 145, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 13, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 144, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 104, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 211, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 213, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 234, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 88
+Node 0: Leader, Energy: 213, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 144, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 399, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 144, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 12, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 143, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 103, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 210, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 212, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 233, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 89
+Node 0: Leader, Energy: 212, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 143, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 398, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 143, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 11, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 142, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 102, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 209, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 211, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 232, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 90
+Node 0: Leader, Energy: 209, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 142, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 395, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 142, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 8, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 141, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 99, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 208, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 210, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 231, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 91
+Node 0: Leader, Energy: 208, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 141, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 394, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 141, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 7, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 140, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 98, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 207, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 209, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 230, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 92
+Node 0: Leader, Energy: 207, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 140, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 393, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 140, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 6, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 139, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 97, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 206, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 208, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 229, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 93
+Node 0: Leader, Energy: 206, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 139, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 392, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 139, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 5, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 138, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 96, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 205, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 207, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 228, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 94
+Node 0: Leader, Energy: 203, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 138, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 389, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 138, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 2, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 137, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 93, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 204, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 206, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 227, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 95
+Node 0: Leader, Energy: 202, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 137, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 388, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 137, Location: (1, 38), Group: 8
+Node 6: Leader, Energy: 1, Location: (22, 2), Group: 6
+Node 7: Member, Energy: 136, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 92, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 203, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 205, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 226, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 96
+Node 0: Leader, Energy: 201, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 136, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 387, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 136, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 135, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 91, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 202, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 204, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 225, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 97
+Node 0: Leader, Energy: 200, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 135, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 386, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 135, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 134, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 90, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 201, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 203, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 224, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 98
+Node 0: Leader, Energy: 197, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 134, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 383, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 134, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 133, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 87, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 200, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 202, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 223, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 99
+Node 0: Leader, Energy: 196, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 133, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 382, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 133, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 132, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 86, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 199, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 201, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 222, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 100
+Node 0: Leader, Energy: 195, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 132, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 381, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 132, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 131, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 85, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 198, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 200, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 221, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 101
+Node 0: Leader, Energy: 194, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 131, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 380, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 131, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 130, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 84, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 197, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 199, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 220, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 102
+Node 0: Leader, Energy: 191, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 130, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 377, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 130, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 129, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 81, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 196, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 198, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 219, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 103
+Node 0: Leader, Energy: 190, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 129, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 376, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 129, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 128, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 80, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 195, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 197, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 218, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 104
+Node 0: Leader, Energy: 189, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 128, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 375, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 128, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 127, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 79, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 194, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 196, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 217, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 105
+Node 0: Leader, Energy: 188, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 127, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 374, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 127, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 126, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 78, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 193, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 195, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 216, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 106
+Node 0: Leader, Energy: 185, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 126, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 371, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 126, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 125, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 75, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 192, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 194, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 215, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 107
+Node 0: Leader, Energy: 184, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 125, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 370, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 125, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 124, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 74, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 191, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 193, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 214, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 108
+Node 0: Leader, Energy: 183, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 124, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 369, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 124, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 123, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 73, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 190, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 192, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 213, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 109
+Node 0: Leader, Energy: 182, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 123, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 368, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 123, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 122, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 72, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 189, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 191, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 212, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 110
+Node 0: Leader, Energy: 179, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 122, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 365, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 122, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 121, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 69, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 188, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 190, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 211, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 111
+Node 0: Leader, Energy: 178, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 121, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 364, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 121, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 120, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 68, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 187, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 189, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 210, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 112
+Node 0: Leader, Energy: 177, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 120, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 363, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 120, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 119, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 67, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 186, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 188, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 209, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 113
+Node 0: Leader, Energy: 176, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 119, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 362, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 119, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 118, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 66, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 185, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 187, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 208, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 114
+Node 0: Leader, Energy: 173, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 118, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 359, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 118, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 117, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 63, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 184, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 186, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 207, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 115
+Node 0: Leader, Energy: 172, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 117, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 358, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 117, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 116, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 62, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 183, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 185, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 206, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 116
+Node 0: Leader, Energy: 171, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 116, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 357, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 116, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 115, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 61, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 182, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 184, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 205, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 117
+Node 0: Leader, Energy: 170, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 115, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 356, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 115, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 114, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 60, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 181, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 183, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 204, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 118
+Node 0: Leader, Energy: 167, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 114, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 353, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 114, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 113, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 57, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 180, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 182, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 203, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 119
+Node 0: Leader, Energy: 166, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 113, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 352, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 113, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 112, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 56, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 179, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 181, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 202, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 120
+Node 0: Leader, Energy: 165, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 112, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 351, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 112, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 111, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 55, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 178, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 180, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 201, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 121
+Node 0: Leader, Energy: 164, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 111, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 350, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 111, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 110, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 54, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 177, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 179, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 200, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 122
+Node 0: Leader, Energy: 161, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 110, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 347, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 110, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 109, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 51, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 176, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 178, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 199, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 123
+Node 0: Leader, Energy: 160, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 109, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 346, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 109, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 108, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 50, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 175, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 177, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 198, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 124
+Node 0: Leader, Energy: 159, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 108, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 345, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 108, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 107, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 49, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 174, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 176, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 197, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 125
+Node 0: Leader, Energy: 158, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 107, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 344, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 107, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 106, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 48, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 173, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 175, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 196, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 126
+Node 0: Leader, Energy: 155, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 106, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 341, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 106, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 105, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 45, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 172, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 174, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 195, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 127
+Node 0: Leader, Energy: 154, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 105, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 340, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 105, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 104, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 44, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 171, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 173, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 194, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 128
+Node 0: Leader, Energy: 153, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 104, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 339, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 104, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 103, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 43, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 170, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 172, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 193, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 129
+Node 0: Leader, Energy: 152, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 103, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 338, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 103, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 102, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 42, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 169, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 171, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 192, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 130
+Node 0: Leader, Energy: 149, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 102, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 335, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 102, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 101, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 39, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 168, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 170, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 191, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 131
+Node 0: Leader, Energy: 148, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 101, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 334, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 101, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 100, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 38, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 167, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 169, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 190, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 132
+Node 0: Leader, Energy: 147, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 100, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 333, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 100, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 99, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 37, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 166, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 168, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 189, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 133
+Node 0: Leader, Energy: 146, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 99, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 332, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 99, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 98, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 36, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 165, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 167, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 188, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 134
+Node 0: Leader, Energy: 143, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 98, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 329, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 98, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 97, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 33, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 164, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 166, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 187, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 135
+Node 0: Leader, Energy: 142, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 97, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 328, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 97, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 96, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 32, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 163, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 165, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 186, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 136
+Node 0: Leader, Energy: 141, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 96, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 327, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 96, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 95, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 31, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 162, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 164, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 185, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 137
+Node 0: Leader, Energy: 140, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 95, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 326, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 95, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 94, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 30, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 161, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 163, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 184, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 138
+Node 0: Leader, Energy: 137, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 94, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 323, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 94, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 93, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 27, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 160, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 162, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 183, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 139
+Node 0: Leader, Energy: 136, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 93, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 322, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 93, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 92, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 26, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 159, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 161, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 182, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 140
+Node 0: Leader, Energy: 135, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 92, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 321, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 92, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 91, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 25, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 158, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 160, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 181, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 141
+Node 0: Leader, Energy: 134, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 91, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 320, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 91, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 90, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 24, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 157, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 159, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 180, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 142
+Node 0: Leader, Energy: 131, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 90, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 317, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 90, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 89, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 21, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 156, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 158, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 179, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 143
+Node 0: Leader, Energy: 130, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 89, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 316, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 89, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 88, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 20, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 155, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 157, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 178, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 144
+Node 0: Leader, Energy: 129, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 88, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 315, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 88, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 87, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 19, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 154, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 156, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 177, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 145
+Node 0: Leader, Energy: 128, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 87, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 314, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 87, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 86, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 18, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 153, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 155, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 176, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 146
+Node 0: Leader, Energy: 125, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 86, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 311, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 86, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 85, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 15, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 152, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 154, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 175, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 147
+Node 0: Leader, Energy: 124, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 85, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 310, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 85, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 84, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 14, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 151, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 153, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 174, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 148
+Node 0: Leader, Energy: 123, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 84, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 309, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 84, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 83, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 13, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 150, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 152, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 173, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 149
+Node 0: Leader, Energy: 122, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 83, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 308, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 83, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 82, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 12, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 149, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 151, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 172, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 150
+Node 0: Leader, Energy: 119, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 82, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 305, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 82, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 81, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 9, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 148, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 150, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 171, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 151
+Node 0: Leader, Energy: 118, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 81, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 304, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 81, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 80, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 8, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 147, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 149, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 170, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 152
+Node 0: Leader, Energy: 117, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 80, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 303, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 80, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 79, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 7, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 146, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 148, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 169, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 153
+Node 0: Leader, Energy: 116, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 79, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 302, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 79, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 78, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 6, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 145, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 147, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 168, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 154
+Node 0: Leader, Energy: 113, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 78, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 299, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 78, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 77, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 3, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 144, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 146, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 167, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 155
+Node 0: Leader, Energy: 112, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 77, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 298, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 77, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 76, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 2, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 143, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 145, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 166, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 156
+Node 0: Leader, Energy: 111, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 76, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 297, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 76, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 75, Location: (34, 33), Group: 2
+Node 8: Leader, Energy: 1, Location: (11, 39), Group: 8
+Node 9: Member, Energy: 142, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 144, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 165, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 157
+Node 0: Leader, Energy: 110, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 75, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 296, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 75, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 74, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 141, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 143, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 164, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 158
+Node 0: Leader, Energy: 107, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 74, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 293, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 74, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 73, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 140, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 142, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 163, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 159
+Node 0: Leader, Energy: 106, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 73, Location: (12, 45), Group: 8
+Node 2: Leader, Energy: 292, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 73, Location: (1, 38), Group: 8
+Node 7: Member, Energy: 72, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 139, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 141, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 162, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 160
+Node 0: Leader, Energy: 105, Location: (2, 3), Group: 0
+Node 1: Member, Energy: 70, Location: (12, 45), Group: None
+Node 2: Leader, Energy: 291, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 70, Location: (1, 38), Group: None
+Node 7: Member, Energy: 71, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 138, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 140, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 161, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 161
+Node 0: Leader, Energy: 104, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 67, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 290, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 69, Location: (1, 38), Group: None
+Node 7: Member, Energy: 70, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 137, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 139, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 160, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 162
+Node 0: Leader, Energy: 101, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 66, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 287, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 68, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 69, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 136, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 138, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 159, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 163
+Node 0: Leader, Energy: 100, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 63, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 286, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 67, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 68, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 135, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 137, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 158, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 164
+Node 0: Leader, Energy: 99, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 62, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 285, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 66, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 67, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 134, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 136, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 157, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 165
+Node 0: Leader, Energy: 98, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 61, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 284, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 65, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 66, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 133, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 135, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 156, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 166
+Node 0: Leader, Energy: 95, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 60, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 281, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 64, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 65, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 132, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 134, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 155, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 167
+Node 0: Leader, Energy: 94, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 57, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 280, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 63, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 64, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 131, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 133, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 154, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 168
+Node 0: Leader, Energy: 93, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 56, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 279, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 62, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 63, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 130, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 132, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 153, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 169
+Node 0: Leader, Energy: 92, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 55, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 278, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 61, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 62, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 129, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 131, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 152, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 170
+Node 0: Leader, Energy: 89, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 54, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 275, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 60, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 61, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 128, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 130, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 151, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 171
+Node 0: Leader, Energy: 88, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 51, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 274, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 59, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 60, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 127, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 129, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 150, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 172
+Node 0: Leader, Energy: 87, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 50, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 273, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 58, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 59, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 126, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 128, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 149, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 173
+Node 0: Leader, Energy: 86, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 49, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 272, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 57, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 58, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 125, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 127, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 148, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 174
+Node 0: Leader, Energy: 83, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 48, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 269, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 56, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 57, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 124, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 126, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 147, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 175
+Node 0: Leader, Energy: 82, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 45, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 268, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 55, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 56, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 123, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 125, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 146, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 176
+Node 0: Leader, Energy: 81, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 44, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 267, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 54, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 55, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 122, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 124, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 145, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 177
+Node 0: Leader, Energy: 80, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 43, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 266, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 53, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 54, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 121, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 123, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 144, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 178
+Node 0: Leader, Energy: 77, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 42, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 263, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 52, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 53, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 120, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 122, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 143, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 179
+Node 0: Leader, Energy: 76, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 39, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 262, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 51, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 52, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 119, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 121, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 142, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 180
+Node 0: Leader, Energy: 75, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 38, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 261, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 50, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 51, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 118, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 120, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 141, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 181
+Node 0: Leader, Energy: 74, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 37, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 260, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 49, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 50, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 117, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 119, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 140, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 182
+Node 0: Leader, Energy: 71, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 36, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 257, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 48, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 49, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 116, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 118, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 139, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 183
+Node 0: Leader, Energy: 70, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 33, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 256, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 47, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 48, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 115, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 117, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 138, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 184
+Node 0: Leader, Energy: 69, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 32, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 255, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 46, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 47, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 114, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 116, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 137, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 185
+Node 0: Leader, Energy: 68, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 31, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 254, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 45, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 46, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 113, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 115, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 136, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 186
+Node 0: Leader, Energy: 65, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 30, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 251, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 44, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 45, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 112, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 114, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 135, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 187
+Node 0: Leader, Energy: 64, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 27, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 250, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 43, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 44, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 111, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 113, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 134, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 188
+Node 0: Leader, Energy: 63, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 26, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 249, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 42, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 43, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 110, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 112, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 133, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 189
+Node 0: Leader, Energy: 62, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 25, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 248, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 41, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 42, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 109, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 111, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 132, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 190
+Node 0: Leader, Energy: 59, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 24, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 245, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 40, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 41, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 108, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 110, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 131, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 191
+Node 0: Leader, Energy: 58, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 21, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 244, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 39, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 40, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 107, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 109, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 130, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 192
+Node 0: Leader, Energy: 57, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 20, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 243, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 38, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 39, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 106, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 108, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 129, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 193
+Node 0: Leader, Energy: 56, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 19, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 242, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 37, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 38, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 105, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 107, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 128, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 194
+Node 0: Leader, Energy: 53, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 18, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 239, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 36, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 37, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 104, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 106, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 127, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 195
+Node 0: Leader, Energy: 52, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 15, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 238, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 35, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 36, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 103, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 105, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 126, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 196
+Node 0: Leader, Energy: 51, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 14, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 237, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 34, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 35, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 102, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 104, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 125, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 197
+Node 0: Leader, Energy: 50, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 13, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 236, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 33, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 34, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 101, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 103, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 124, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 198
+Node 0: Leader, Energy: 47, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 12, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 233, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 32, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 33, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 100, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 102, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 123, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 199
+Node 0: Leader, Energy: 46, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 9, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 232, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 31, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 32, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 99, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 101, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 122, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 200
+Node 0: Leader, Energy: 45, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 8, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 231, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 30, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 31, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 98, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 100, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 121, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 201
+Node 0: Leader, Energy: 44, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 7, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 230, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 29, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 30, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 97, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 99, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 120, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 202
+Node 0: Leader, Energy: 41, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 6, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 227, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 28, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 29, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 96, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 98, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 119, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 203
+Node 0: Leader, Energy: 40, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 3, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 226, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 27, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 28, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 95, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 97, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 118, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 204
+Node 0: Leader, Energy: 39, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 2, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 225, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 26, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 27, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 94, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 96, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 117, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 205
+Node 0: Leader, Energy: 38, Location: (2, 3), Group: 0
+Node 1: Leader, Energy: 1, Location: (12, 45), Group: 1
+Node 2: Leader, Energy: 224, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 25, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 26, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 93, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 95, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 116, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 206
+Node 0: Leader, Energy: 35, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 221, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 24, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 25, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 92, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 94, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 115, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 207
+Node 0: Leader, Energy: 34, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 220, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 23, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 24, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 91, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 93, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 114, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 208
+Node 0: Leader, Energy: 33, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 219, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 22, Location: (1, 38), Group: 1
+Node 7: Member, Energy: 23, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 90, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 92, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 113, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 209
+Node 0: Leader, Energy: 32, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 218, Location: (35, 45), Group: 2
+Node 3: Member, Energy: 19, Location: (1, 38), Group: None
+Node 7: Member, Energy: 22, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 89, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 91, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 112, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 210
+Node 0: Leader, Energy: 29, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 215, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 18, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 21, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 88, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 90, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 111, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 211
+Node 0: Leader, Energy: 28, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 214, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 17, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 20, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 87, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 89, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 110, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 212
+Node 0: Leader, Energy: 27, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 213, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 16, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 19, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 86, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 88, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 109, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 213
+Node 0: Leader, Energy: 26, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 212, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 15, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 18, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 85, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 87, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 108, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 214
+Node 0: Leader, Energy: 23, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 209, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 12, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 17, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 84, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 86, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 107, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 215
+Node 0: Leader, Energy: 22, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 208, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 11, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 16, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 83, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 85, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 106, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 216
+Node 0: Leader, Energy: 21, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 207, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 10, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 15, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 82, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 84, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 105, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 217
+Node 0: Leader, Energy: 20, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 206, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 9, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 14, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 81, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 83, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 104, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 218
+Node 0: Leader, Energy: 17, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 203, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 6, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 13, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 80, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 82, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 103, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 219
+Node 0: Leader, Energy: 16, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 202, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 5, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 12, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 79, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 81, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 102, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 220
+Node 0: Leader, Energy: 15, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 201, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 4, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 11, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 78, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 80, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 101, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 221
+Node 0: Leader, Energy: 14, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 200, Location: (35, 45), Group: 2
+Node 3: Leader, Energy: 3, Location: (1, 38), Group: 3
+Node 7: Member, Energy: 10, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 77, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 79, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 100, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 222
+Node 0: Leader, Energy: 11, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 197, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 9, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 76, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 78, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 99, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 223
+Node 0: Leader, Energy: 10, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 196, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 8, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 75, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 77, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 98, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 224
+Node 0: Leader, Energy: 9, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 195, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 7, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 74, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 76, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 97, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 225
+Node 0: Leader, Energy: 8, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 194, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 6, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 73, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 75, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 96, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 226
+Node 0: Leader, Energy: 5, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 191, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 5, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 72, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 74, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 95, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 227
+Node 0: Leader, Energy: 4, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 190, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 4, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 71, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 73, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 94, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 228
+Node 0: Leader, Energy: 3, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 189, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 3, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 70, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 72, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 93, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 229
+Node 0: Leader, Energy: 2, Location: (2, 3), Group: 0
+Node 2: Leader, Energy: 188, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 2, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 69, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 71, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 92, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 230
+Node 2: Leader, Energy: 185, Location: (35, 45), Group: 2
+Node 7: Member, Energy: 1, Location: (34, 33), Group: 2
+Node 9: Member, Energy: 68, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 70, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 91, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 231
+Node 2: Leader, Energy: 184, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 67, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 69, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 90, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 232
+Node 2: Leader, Energy: 183, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 66, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 68, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 89, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 233
+Node 2: Leader, Energy: 182, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 65, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 67, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 88, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 234
+Node 2: Leader, Energy: 179, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 64, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 66, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 87, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 235
+Node 2: Leader, Energy: 178, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 63, Location: (2, 4), Group: 0
+Node 10: Member, Energy: 65, Location: (2, 6), Group: 0
+Node 11: Member, Energy: 86, Location: (3, 5), Group: 0
+==========================================================================================
+Time: 236
+Node 2: Leader, Energy: 177, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 60, Location: (2, 4), Group: None
+Node 10: Member, Energy: 62, Location: (2, 6), Group: None
+Node 11: Member, Energy: 83, Location: (3, 5), Group: None
+==========================================================================================
+Time: 237
+Node 2: Leader, Energy: 176, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 59, Location: (2, 4), Group: None
+Node 10: Member, Energy: 61, Location: (2, 6), Group: None
+Node 11: Leader, Energy: 80, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 238
+Node 2: Leader, Energy: 173, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 58, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 60, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 79, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 239
+Node 2: Leader, Energy: 172, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 57, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 59, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 76, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 240
+Node 2: Leader, Energy: 171, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 56, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 58, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 75, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 241
+Node 2: Leader, Energy: 170, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 55, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 57, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 74, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 242
+Node 2: Leader, Energy: 167, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 54, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 56, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 73, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 243
+Node 2: Leader, Energy: 166, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 53, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 55, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 70, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 244
+Node 2: Leader, Energy: 165, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 52, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 54, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 69, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 245
+Node 2: Leader, Energy: 164, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 51, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 53, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 68, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 246
+Node 2: Leader, Energy: 161, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 50, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 52, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 67, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 247
+Node 2: Leader, Energy: 160, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 49, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 51, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 64, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 248
+Node 2: Leader, Energy: 159, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 48, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 50, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 63, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 249
+Node 2: Leader, Energy: 158, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 47, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 49, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 62, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 250
+Node 2: Leader, Energy: 155, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 46, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 48, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 61, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 251
+Node 2: Leader, Energy: 154, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 45, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 47, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 58, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 252
+Node 2: Leader, Energy: 153, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 44, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 46, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 57, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 253
+Node 2: Leader, Energy: 152, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 43, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 45, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 56, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 254
+Node 2: Leader, Energy: 149, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 42, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 44, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 55, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 255
+Node 2: Leader, Energy: 148, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 41, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 43, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 52, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 256
+Node 2: Leader, Energy: 147, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 40, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 42, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 51, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 257
+Node 2: Leader, Energy: 146, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 39, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 41, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 50, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 258
+Node 2: Leader, Energy: 143, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 38, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 40, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 49, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 259
+Node 2: Leader, Energy: 142, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 37, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 39, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 46, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 260
+Node 2: Leader, Energy: 141, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 36, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 38, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 45, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 261
+Node 2: Leader, Energy: 140, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 35, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 37, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 44, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 262
+Node 2: Leader, Energy: 137, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 34, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 36, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 43, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 263
+Node 2: Leader, Energy: 136, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 33, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 35, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 40, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 264
+Node 2: Leader, Energy: 135, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 32, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 34, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 39, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 265
+Node 2: Leader, Energy: 134, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 31, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 33, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 38, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 266
+Node 2: Leader, Energy: 131, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 30, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 32, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 37, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 267
+Node 2: Leader, Energy: 130, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 29, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 31, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 34, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 268
+Node 2: Leader, Energy: 129, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 28, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 30, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 33, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 269
+Node 2: Leader, Energy: 128, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 27, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 29, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 32, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 270
+Node 2: Leader, Energy: 125, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 26, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 28, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 31, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 271
+Node 2: Leader, Energy: 124, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 25, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 27, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 28, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 272
+Node 2: Leader, Energy: 123, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 24, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 26, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 27, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 273
+Node 2: Leader, Energy: 122, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 23, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 25, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 26, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 274
+Node 2: Leader, Energy: 119, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 22, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 24, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 25, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 275
+Node 2: Leader, Energy: 118, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 21, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 23, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 22, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 276
+Node 2: Leader, Energy: 117, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 20, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 22, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 21, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 277
+Node 2: Leader, Energy: 116, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 19, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 21, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 20, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 278
+Node 2: Leader, Energy: 113, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 18, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 20, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 19, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 279
+Node 2: Leader, Energy: 112, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 17, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 19, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 16, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 280
+Node 2: Leader, Energy: 111, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 16, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 18, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 15, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 281
+Node 2: Leader, Energy: 110, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 15, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 17, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 14, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 282
+Node 2: Leader, Energy: 107, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 14, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 16, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 13, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 283
+Node 2: Leader, Energy: 106, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 13, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 15, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 10, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 284
+Node 2: Leader, Energy: 105, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 12, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 14, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 9, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 285
+Node 2: Leader, Energy: 104, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 11, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 13, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 8, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 286
+Node 2: Leader, Energy: 101, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 10, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 12, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 7, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 287
+Node 2: Leader, Energy: 100, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 9, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 11, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 4, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 288
+Node 2: Leader, Energy: 99, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 8, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 10, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 3, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 289
+Node 2: Leader, Energy: 98, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 7, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 9, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 2, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 290
+Node 2: Leader, Energy: 95, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 6, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 8, Location: (2, 6), Group: 11
+Node 11: Leader, Energy: 1, Location: (3, 5), Group: 11
+==========================================================================================
+Time: 291
+Node 2: Leader, Energy: 94, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 5, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 7, Location: (2, 6), Group: 11
+==========================================================================================
+Time: 292
+Node 2: Leader, Energy: 93, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 4, Location: (2, 4), Group: 11
+Node 10: Member, Energy: 6, Location: (2, 6), Group: 11
+==========================================================================================
+Time: 293
+Node 2: Leader, Energy: 92, Location: (35, 45), Group: 2
+Node 9: Member, Energy: 1, Location: (2, 4), Group: None
+Node 10: Member, Energy: 3, Location: (2, 6), Group: None
+==========================================================================================
+Time: 294
+Node 2: Leader, Energy: 89, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 295
+Node 2: Leader, Energy: 88, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 296
+Node 2: Leader, Energy: 87, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 297
+Node 2: Leader, Energy: 86, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 298
+Node 2: Leader, Energy: 83, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 299
+Node 2: Leader, Energy: 82, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 300
+Node 2: Leader, Energy: 81, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 301
+Node 2: Leader, Energy: 80, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 302
+Node 2: Leader, Energy: 77, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 303
+Node 2: Leader, Energy: 76, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 304
+Node 2: Leader, Energy: 75, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 305
+Node 2: Leader, Energy: 74, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 306
+Node 2: Leader, Energy: 71, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 307
+Node 2: Leader, Energy: 70, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 308
+Node 2: Leader, Energy: 69, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 309
+Node 2: Leader, Energy: 68, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 310
+Node 2: Leader, Energy: 65, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 311
+Node 2: Leader, Energy: 64, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 312
+Node 2: Leader, Energy: 63, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 313
+Node 2: Leader, Energy: 62, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 314
+Node 2: Leader, Energy: 59, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 315
+Node 2: Leader, Energy: 58, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 316
+Node 2: Leader, Energy: 57, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 317
+Node 2: Leader, Energy: 56, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 318
+Node 2: Leader, Energy: 53, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 319
+Node 2: Leader, Energy: 52, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 320
+Node 2: Leader, Energy: 51, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 321
+Node 2: Leader, Energy: 50, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 322
+Node 2: Leader, Energy: 47, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 323
+Node 2: Leader, Energy: 46, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 324
+Node 2: Leader, Energy: 45, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 325
+Node 2: Leader, Energy: 44, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 326
+Node 2: Leader, Energy: 41, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 327
+Node 2: Leader, Energy: 40, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 328
+Node 2: Leader, Energy: 39, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 329
+Node 2: Leader, Energy: 38, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 330
+Node 2: Leader, Energy: 35, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 331
+Node 2: Leader, Energy: 34, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 332
+Node 2: Leader, Energy: 33, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 333
+Node 2: Leader, Energy: 32, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 334
+Node 2: Leader, Energy: 29, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 335
+Node 2: Leader, Energy: 28, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 336
+Node 2: Leader, Energy: 27, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 337
+Node 2: Leader, Energy: 26, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 338
+Node 2: Leader, Energy: 23, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 339
+Node 2: Leader, Energy: 22, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 340
+Node 2: Leader, Energy: 21, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 341
+Node 2: Leader, Energy: 20, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 342
+Node 2: Leader, Energy: 17, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 343
+Node 2: Leader, Energy: 16, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 344
+Node 2: Leader, Energy: 15, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 345
+Node 2: Leader, Energy: 14, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 346
+Node 2: Leader, Energy: 11, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 347
+Node 2: Leader, Energy: 10, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 348
+Node 2: Leader, Energy: 9, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 349
+Node 2: Leader, Energy: 8, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 350
+Node 2: Leader, Energy: 5, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 351
+Node 2: Leader, Energy: 4, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 352
+Node 2: Leader, Energy: 3, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 353
+Node 2: Leader, Energy: 2, Location: (35, 45), Group: 2
+==========================================================================================
+Time: 354
+==========================================================================================

@@ -1,4 +1,4 @@
-from node import Node
+from simulator.node import Node
 import re
 
 def loadNodes(filename="input.txt"):

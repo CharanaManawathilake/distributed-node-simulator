@@ -1,4 +1,4 @@
-from messages import HeartbeatMessage, LeaderFailureMessage
+from simulator.messages import HeartbeatMessage, LeaderFailureMessage
 
 class Node:
     def __init__(self, nodeId, x, y, energy):
@@ -12,6 +12,7 @@ class Node:
         self.members = []
         self.leader = None
         self.nodeCounter = 0
+        self.inElection = False
 
         self.msgQueue = []
         self.msgBuffer = []
@@ -41,27 +42,34 @@ class Node:
         self.isLeader = True
 
     def processStep(self, messageService, leaderElectionService):
-        leaderFailureMsgs = []
-        for msg in self.msgQueue:
-            if msg.message_type == "LeaderFailure":
-                leaderFailureMsgs.append(msg)
-        if len(leaderFailureMsgs) > 0:
-            leaderElectionService.appointNewLeader(self, leaderFailureMsgs, messageService)
-            return
+        leaderFailureMsgs = [msg for msg in self.msgQueue if msg.message_type == "LeaderFailure"]
+        groupAllocationMsgs = [msg for msg in self.msgQueue if msg.message_type == "GroupAllocation"]
+        heartbeatMsgs = [msg for msg in self.msgQueue if msg.message_type == "Heartbeat"]
+        
+        if self.inElection:
+            if len(leaderFailureMsgs) == 0:
+                self.inElection = False
+                self.isLeader = True
+                self.leader = self
+                self.members = []
+                self.nodeCounter = 0
+                return
+            else:
+                leaderElectionService.appointNewLeader(self, leaderFailureMsgs, messageService)
+                self.inElection = False
+                return
 
-        containedHeartbeat = False
-        for msg in self.msgQueue:
-            if msg.message_type == "GroupAllocation":
-                for group in msg.content:
-                    if self in group:
-                        self.members = [node for node in group if node.id != self.id]
-                        if self == group[0]:
-                            self.isLeader = True
-                            self.leader = self
-                        else:
-                            self.leader = group[0]
-            elif msg.message_type == "Heartbeat":
-                containedHeartbeat = True
+        containedHeartbeat = len(heartbeatMsgs) > 0
+
+        for msg in groupAllocationMsgs:
+            for group in msg.content:
+                if self in group:
+                    self.members = [node for node in group if node.id != self.id]
+                    if self == group[0]:
+                        self.isLeader = True
+                        self.leader = self
+                    else:
+                        self.leader = group[0]
 
         if not self.isLeader:
             if not containedHeartbeat:
@@ -72,6 +80,8 @@ class Node:
             self.nodeCounter += 1
 
         if self.nodeCounter >= 5 and not self.isLeader:
+            self.leader = None
+            self.inElection = True
             messageService.broadcastToMembers(self, LeaderFailureMessage(self))
             self.nodeCounter = 2
 
