@@ -1,4 +1,4 @@
-from messages import HeartbeatMessage, LeaderFailureMessage
+from simulator.messages import HeartbeatMessage, LeaderFailureMessage
 
 class Node:
     def __init__(self, nodeId, x, y, energy):

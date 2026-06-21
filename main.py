@@ -1,7 +1,7 @@
-from messages import SelfIntroductionMessage
-from leaderElectionService import LeaderElectionService
-from reader import loadNodes
-from messageService import MessageService
+from simulator.messages import SelfIntroductionMessage
+from simulator.services.leader_election_service import LeaderElectionService
+from simulator.reader import loadNodes
+from simulator.services.message_service import MessageService
 import copy
 import sys
 

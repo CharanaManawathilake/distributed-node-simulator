@@ -1,5 +1,5 @@
-from messages import GroupAllocationMessage
-from node import Node
+from simulator.messages import GroupAllocationMessage
+from simulator.node import Node
 import math
 
 class LeaderElectionService:
