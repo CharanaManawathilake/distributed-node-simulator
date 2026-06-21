@@ -7,23 +7,32 @@ class LeaderElectionService:
         self.nodes = nodes
         self.messageService = messageService
 
-    def initializeLeader(self):
+    def initializeLeader(self, message_type = "SelfIntroduction"):
+        for n in self.nodes:
+            n.isLeader = False
+            n.leader = None
+            n.members = []
+
         for node in self.nodes:
             maxEnergy = -1
             id = -1
             tempNodes = []
             for msg in node.msgQueue:
-                if msg.message_type == "SelfIntroduction":
+                if msg.message_type == message_type:
                     energy = msg.content["energy"]
                     if energy > maxEnergy:
                         maxEnergy = energy
                         id = msg.sender_id
                     if energy == maxEnergy:
                         id = min(id, msg.sender_id)
-                    tempNodes.append(Node(msg.sender_id, msg.content["location"][0], msg.content["location"][1], energy))
+                    actual_node = next((n for n in self.nodes if n.id == msg.sender_id), None)
+                    if actual_node:
+                        tempNodes.append(actual_node)
             if maxEnergy < node.energy or (maxEnergy == node.energy and node.id < id):
                 node.setLeader()
                 groups = self._calculateGroups(node, tempNodes)
+                node.leader = node
+                node.members = [n for n in groups[0] if n.id != node.id]
                 self.messageService.broadcast(node, GroupAllocationMessage(node.id, groups))
 
     def _calculateGroups(self, leader, tempNodes):
