@@ -26,12 +26,11 @@ def removeDeadNodes():
 
 def printStatus():
     saveTimeline()
-    print("=========================================")
     print(f"Time: {timeCounter}")
     for node in nodes:
         status = "Leader" if node.isLeader else "Member"
         print(f"Node {node.id}: {status}, Energy: {node.energy}, Location: ({node.x}, {node.y}), Group : {node.leader.id if node.leader else 'None'}")
-    print("=========================================")
+    print("=========================================================================================")
 
 def main():
     global nodes
@@ -51,8 +50,6 @@ def main():
     printStatus()
 
     while (len(nodes) > 0):
-        if timeCounter >= 150:
-            pass
         for node in nodes:
             node.processStep(messageService, leaderElectionService)
         takeStep(1)
