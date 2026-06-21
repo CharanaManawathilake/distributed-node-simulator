@@ -2,10 +2,15 @@ from messages import SelfIntroductionMessage
 from leaderElectionService import LeaderElectionService
 from reader import loadNodes
 from messageService import MessageService
+import copy
 
 nodes = []
-timeline = []
+timeline = {}
 timeCounter = 0
+
+def saveTimeline():
+    global timeline
+    timeline[timeCounter] = copy.deepcopy(nodes)
 
 def takeStep(time=1):
     global timeCounter
@@ -20,6 +25,7 @@ def removeDeadNodes():
     nodes[:] = [node for node in nodes if node.alive]
 
 def printStatus():
+    saveTimeline()
     print("=========================================")
     print(f"Time: {timeCounter}")
     for node in nodes:
@@ -29,7 +35,7 @@ def printStatus():
 
 def main():
     global nodes
-    nodes = loadNodes("input.txt")
+    nodes = loadNodes("input2.txt")
     messageService = MessageService(nodes)
     leaderElectionService = LeaderElectionService(nodes, messageService)
 
