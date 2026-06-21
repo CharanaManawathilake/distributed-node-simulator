@@ -11,31 +11,6 @@ A distributed node simulation framework implementing energy-aware clustering and
 
 ---
 
-## File System Layout
-
-The codebase is organized into a clean, modular structure:
-
-```
-distributed-node-simulator/
-├── main.py                     # Entry point runner script supporting simulation and test flags
-├── input.txt                   # Default simulation input configuration file
-├── output.txt                  # Output execution logs
-├── simulator/                  # Main simulator package
-│   ├── __init__.py
-│   ├── messages.py             # Message definitions (Heartbeats, Leader Failures, Allocations)
-│   ├── node.py                 # Node state, execution steps, and energy consumption logic
-│   ├── reader.py               # Input parser mapping config coordinates to active Node instances
-│   └── services/               # System service layer
-│       ├── __init__.py
-│       ├── leader_election_service.py # Leader election and distance clustering algorithms
-│       └── message_service.py         # Network routing and broadcast dispatch handlers
-└── tests/                      # Verification suite
-    ├── input/                  # Test input scenarios
-    ├── expected/               # Ground truth simulator outputs
-    └── actual/                 # Generated outputs from the current run
-```
-
----
 
 ## Getting Started
 
